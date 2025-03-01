@@ -1,72 +1,125 @@
-
-    <html>
+<!doctype html>
+<html lang="de">
         <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+#disciplinheader {  
+	font-weight: bold; 
+	font-size: 3em;  
+	color: red;
+	padding: 0;
+	margin: 0;
+	}
+#persbest { 
+	font-size: 1.25em;
+	font-style: italic;  
+	padding: 0;
+	margin: 0;
+	}
+#recordunit {
+	text-align: center; 
+	font-size: 2em; 
+	padding-top: 0.75em
+	}
+#recordvalue {
+	font-weight: bold; 
+	font-size: 3em; 
+	text-align: center
+	}
+#recordtable {
+	width: 20em;
+	border-radius: 0.5em; 
+	border: 3px solid red; 
+	padding: 0;
+	margin: 0;
+	clear: both
+	}
+    </style>
             <title>Sports Report</title>
         </head>
         <body>
-            <h1>Sports Report</h1>
-            <h2>14.3.2024 - 18.1.2025</h2>
-            <h3 style="background-color:#E0E0E0">Records</h3>
-    <div style="border-radius: 0.5em; border: 0.1em solid red; box-shadow: 0 0 0 1em red inset; padding: 2em;">
-            <table style="box-shadow: 10px 10px 10px 1px grey;">
+            <a style="padding: 0; margin: 0; font-size: 2em; font-weight: bold">Sports Report</a></br>
+            <a style="padding: 0; margin: 0; font-style: italic">14.3.2024 - 18.1.2025</a></br></br>
+<img style="float: left" src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/pikto_run.jpeg' height="80"> 
+<a id="disciplinheader">Run</a></br>
+<a id="persbest">personal best</a></br>
+<table id="recordtable">
           <tr>
-            <th style="width: 5em; font-weight: bold; text-align: center; color: black"></th>
-            <th style="width: 10em; background-color: #eee; font-weight: bold; text-align: center; color: red">Run</th>
-            <th style="width: 10em; background-color: #eee; font-weight: bold; text-align: center; color: red">Ride</th>
-            <th style="width: 10em; background-color: #eee; font-weight: bold; text-align: center; color: red">Swim</th>
-            <th style="width: 10em; background-color: #eee; font-weight: bold; text-align: center; color: red">Gym</th>
-          </tr>
+            <td id="recordunit">Pace [min/km]</td>
+           </tr>
           <tr>
-            <td style="width: 5em; background-color: #eee; font-weight: bold; text-align: right; color: black">Pace</td>
-            <td style="text-align: center">5:24 min/km</td>
-            <td style="text-align: center">2:36 min/km</td>
-            <td style="text-align: center">30 min/km</td>
-            <td style="text-align: center">- min/km</td>
+            <td id="recordvalue">5:24</td>
            </tr>
            <tr>
-            <td style="width: 5em; background-color: #eee; font-weight: bold; text-align: right; color: black">Velocity</td>
-            <td style="text-align: center">11.08 km/h</td>
-            <td style="text-align: center">23.05 km/h</td>
-            <td style="text-align: center">1 km/h</td>
-            <td style="text-align: center">- km/h</td>
+            <td id="recordunit">Velocity [km/h]</td>
            </tr>
            <tr>
-            <td style="width: 5em; background-color: #eee; font-weight: bold; text-align: right; color: black">Distance</td>
-            <td style="text-align: center">10.08 km</td>
-            <td style="text-align: center">22.0 km</td>
-            <td style="text-align: center">2.5 km</td>
-            <td style="text-align: center">- km</td>
+            <td id="recordvalue">11.08</td>
+           </tr>
+           <tr>
+            <td id="recordunit">Distance [km]</td>
+           <tr>
+            <td id="recordvalue">10.08</td>
+           </tr>
            </tr>
             <tr>
-            <td style="width: 5em; background-color: #eee; font-weight: bold; text-align: right; color: black">Calories</td>
-            <td style="text-align: center">700 kcal</td>
-            <td style="text-align: center">400 kcal</td>
-            <td style="text-align: center">600 kcal</td>
-            <td style="text-align: center">800 kcal</td>
+            <td id="recordunit">Calories [kcal]</td>
            </tr>
-        </table>
-</div>
+        <tr>
+            <td id="recordvalue">700</td>
+           </tr>
+</table></br>
+<img style="float: left" src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/pikto_ride.jpeg' height="80"> 
+<a id="disciplinheader">Ride</a></br>
+<a id="persbest">personal best</a></br>
+<table id="recordtable">
+          <tr>
+            <td id="recordunit">Pace [min/km]</td>
+           </tr>
+          <tr>
+            <td id="recordvalue">5:24</td>
+           </tr>
+           <tr>
+            <td id="recordunit">Velocity [km/h]</td>
+           </tr>
+           <tr>
+            <td id="recordvalue">11.08</td>
+           </tr>
+           <tr>
+            <td id="recordunit">Distance [km]</td>
+           <tr>
+            <td id="recordvalue">10.08</td>
+           </tr>
+           </tr>
+            <tr>
+            <td id="recordunit">Calories [kcal]</td>
+           </tr>
+        <tr>
+            <td id="recordvalue">700</td>
+           </tr>
+</table>
         </br></br>
-            <img src='records_run.png' width="700"></br></br>
-            <img src='records_ride.png' width="700"></br>
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/records_run.png' width="700"></br></br>
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/records_ride.png' width="700"></br>
             <h3 style="background-color:#E0E0E0">Overview</h3>
-            <img src='overall_distance.png' width="700"></br></br>
-            <img src='overall_duration.png' width="700"></br></br>
-            <img src='overall_efficiency.png' width="800"></br></br>
-            <img src='overall_efficiency_pie.png' width="500"></br></br>            
-            <img src='overall_sportsdays.png' width="800"></br></br>
-            <img src='overall_sportsevents.png' width="800"></br></br>
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/overall_distance.png' width="700"></br></br>
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/overall_duration.png' width="700"></br></br>
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/overall_efficiency.png' width="800"></br></br>
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/overall_efficiency_pie.png' width="500"></br></br>            
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/overall_sportsdays.png' width="800"></br></br>
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/overall_sportsevents.png' width="800"></br></br>
             <h3 style="background-color:#E0E0E0">Run Details</h3>
-            <img src='rundays.png' width="800"></br></br>
-            <img src='runtime_distribution.png' width="800"></br></br>
-            <img src='distance_at_runtime.png' width="350">
-            <img src='pace_at_runtime.png' width="350"></br>
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/rundays.png' width="800"></br></br>
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/runtime_distribution.png' width="800"></br></br>
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/distance_at_runtime.png' width="350">
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/pace_at_runtime.png' width="350"></br>
             <h3 style="background-color:#E0E0E0">Ride Details</h3>
-            <img src='ridedays.png' width="800"></br>
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/ridedays.png' width="800"></br>
             <h3 style="background-color:#E0E0E0">Swim Details</h3>
-            <img src='swimdays.png' width="800"></br>
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/swimdays.png' width="800"></br>
             <h3 style="background-color:#E0E0E0">Gym Details</h3>
-            <img src='gymdays.png' width="800"></br>
+            <img src='C:/Users/vwh8kzk/OneDrive - Volkswagen AG/0-Orga/Privat/Sport/20250118/gymdays.png' width="800"></br>
             <h3 style="background-color:#E0E0E0">Data</h3>
             <table border="1" class="dataframe">
   <thead>
