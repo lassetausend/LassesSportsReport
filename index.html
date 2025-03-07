@@ -11,19 +11,13 @@ header {
 	left:  0;
 	right: 0;
 }
-#disciplinheader {  
+#persbest {  
 	font-weight: bold; 
-	font-size: 1.5em;  
-	color: red;
-	padding: 0;
-	margin: 0;
-	}
-#persbest { 
-	font-size: 1em;
+	font-size: 1.5em;
 	font-style: italic;  
-	padding: 0;
-	margin: 0;
+	color: black;
 	}
+
 #recordunit {
 	text-align: center; 
 	font-size: 1.5em; 
@@ -66,7 +60,7 @@ nav a {
     	text-decoration: none; 
     	font-weight: bold;
     	color: black; 
-	font-size: 1.5em;
+	font-size: 1.25em;
 	display: block
 }
 </style>
@@ -75,12 +69,12 @@ nav a {
 <body>
 <header>        
 	<a style="padding: 0; margin: 0; font-size: 2em; font-weight: bold">Sports Report</a></br>
-	<a style="padding: 0; margin: 0; font-size: 2em; font-style: italic">14.3.2024 - 18.1.2025</a>
+	<a style="padding: 0; margin: 0; font-size: 1.25em; font-style: italic">14.3.2024 - 18.1.2025</a>
 </br></br>
 </header>
 	<nav>
 		<ul>
-			<li><a>Run</a></li>
+			<li style="border-color: red"><a style="color: red">Run</a></li>
 			<li><a href="#ridelink">Ride</a></li>
 			<li><a href="#swimlink">Swim</a></li>
 			<li><a href="#gymlink">Gym</a></li>
@@ -90,8 +84,7 @@ nav a {
 	</nav>
 <main>
 </br>
-	<img style="float: left; margin-left: 10%" src='pikto_run.jpeg' height="50"> 
-	<a id="disciplinheader">Run</a></br>
+	<img style="margin-left: 10%" src='pikto_run.jpeg' height="50"> 
 	<a id="persbest">personal best</a></br>
 
 <table id="recordtable">
@@ -129,12 +122,12 @@ nav a {
 	<img src='pace_at_runtime.png' width="100%"></br></br>
 	<p id="ridelink"></p>
 	<a style="padding: 0; margin: 0; font-size: 2em; font-weight: bold; color: white">Sports Report</a></br>
-	<a style="padding: 0; margin: 0; font-size: 2em; font-style: italic; color: white">14.3.2024 - 18.1.2025</a></br></br>
+	<a style="padding: 0; margin: 0; font-size: 1.25em; font-style: italic; color: white">14.3.2024 - 18.1.2025</a></br></br>
 
 	<nav>
 		<ul>
 			<li><a href="#top">Run</a></li>
-			<li><a>Ride</a></li>
+			<li style="border-color: red"><a style="color: red">Ride</a></li>
 			<li><a href="#swimlink">Swim</a></li>
 			<li><a href="#gymlink">Gym</a></li>
 			<li><a href="#overviewlink">Overview</a></li>
@@ -142,8 +135,7 @@ nav a {
 		</ul>
 	</nav>
 </br>
-	<img style="float: left; margin-left: 10%" src='pikto_ride.jpeg' height="50"> 
-	<a id="disciplinheader">Ride</a></br>
+	<img style="margin-left: 10%" src='pikto_ride.jpeg' height="50"> 
 	<a id="persbest">personal best</a></br>
 <table id="recordtable">
           <tr>
@@ -176,7 +168,7 @@ nav a {
 
 <p id="overviewlink"></p>
 <a style="padding: 0; margin: 0; font-size: 2em; font-weight: bold; color: white">Sports Report</a></br>
-<a style="padding: 0; margin: 0; font-size: 2em; font-style: italic; color: white">14.3.2024 - 18.1.2025</a></br></br>
+<a style="padding: 0; margin: 0; font-size: 1.25em; font-style: italic; color: white">14.3.2024 - 18.1.2025</a></br></br>
 
 	<nav>
 		<ul>
@@ -184,7 +176,7 @@ nav a {
 			<li><a href="#ridelink">Ride</a></li>
 			<li><a href="#swimlink">Swim</a></li>
 			<li><a href="#gymlink">Gym</a></li>
-			<li><a>Overview</a></li>
+			<li style="border-color: red"><a style="color: red">Overview</a></li>
 			<li><a href="#top">Data</a></li>
 		</ul>
 	</nav>
@@ -198,21 +190,20 @@ nav a {
 
 <p id="swimlink"></p>
 <a style="padding: 0; margin: 0; font-size: 2em; font-weight: bold; color: white">Sports Report</a></br>
-<a style="padding: 0; margin: 0; font-size: 2em; font-style: italic; color: white">14.3.2024 - 18.1.2025</a></br></br>
+<a style="padding: 0; margin: 0; font-size: 1.25em; font-style: italic; color: white">14.3.2024 - 18.1.2025</a></br></br>
 
 	<nav>
 		<ul>
 			<li><a href="#top">Run</a></li>
 			<li><a href="#ridelink">Ride</a></li>
-			<li><a>Swim</a></li>
+			<li style="border-color: red"><a style="color: red">Swim</a></li>
 			<li><a href="#gymlink">Gym</a></li>
 			<li><a href="#overviewlink">Overview</a></li>
 			<li><a href="#top">Data</a></li>
 		</ul>
 	</nav>
 </br>
-<img style="float: left; margin-left: 10%" src='pikto_swim.jpeg' height="50"> 
-<a id="disciplinheader">Swim</a></br>
+<img style="margin-left: 10%" src='pikto_swim.jpeg' height="50"> 
 <a id="persbest">personal best</a></br>
 <table id="recordtable">
           <tr>
@@ -246,21 +237,20 @@ nav a {
 
 <p id="gymlink"></p>
 <a style="padding: 0; margin: 0; font-size: 2em; font-weight: bold; color: white">Sports Report</a></br>
-<a style="padding: 0; margin: 0; font-size: 2em; font-style: italic; color: white">14.3.2024 - 18.1.2025</a></br></br>
+<a style="padding: 0; margin: 0; font-size: 1.25em; font-style: italic; color: white">14.3.2024 - 18.1.2025</a></br></br>
 
 	<nav>
 		<ul>
 			<li><a href="#top">Run</a></li>
 			<li><a href="#ridelink">Ride</a></li>
 			<li><a href="#swimlink">Swim</a></li>
-			<li><a>Gym</a></li>
+			<li style="border-color: red"><a style="color: red">Gym</a></li>
 			<li><a href="#overviewlink">Overview</a></li>
 			<li><a href="#top">Data</a></li>
 		</ul>
 	</nav>
 </br>
-<img style="float: left; margin-left: 10%" src='pikto_gym.jpeg' height="50"> 
-<a id="disciplinheader">Gym</a></br>
+<img style="margin-left: 10%" src='pikto_gym.jpeg' height="50"> 
 <a id="persbest">personal best</a></br>
 <table id="recordtable">
           <tr>
