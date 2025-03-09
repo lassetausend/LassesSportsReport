@@ -31,6 +31,15 @@ header {
 	margin-left: 10%;
 	clear: both
 }
+#mediantable {
+	width: 80%;
+	border-radius: 0.5em; 
+	border: 2px solid green; 
+	padding: 0;
+	margin-right: 10%;
+	margin-left: 10%;
+	clear: both
+}
 
 nav ul {
 	background: white;
